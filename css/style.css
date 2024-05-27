@@ -1,14 +1,44 @@
 header {
+  width: 100%;
   position: fixed;
   top: 0; }
-  header nav ul li {
-    display: inline-block; }
-    header nav ul li a {
-      color: white;
-      text-decoration: none;
-      display: inline-block; }
+  header nav {
+    float: right; }
+    header nav ul {
+      margin: 20px;
+      font-size: 25px; }
+      header nav ul li {
+        display: inline-block;
+        margin: 15px; }
+        header nav ul li a {
+          color: white;
+          text-decoration: none; }
 
 html {
   background-color: black; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  position: fixed;
+  top: 20%; }
+
+.coluna {
+  background-color: white;
+  padding-right: 200px;
+  text-align: center;
+  padding-bottom: 200px;
+  background-image: url(zumbi.png);
+  border-radius: 20px;
+  margin: 20px; }
+  .coluna:hover {
+    background-color: grey; }
+
+.imagemficha {
+  box-shadow: 0 0 10px;
+  color: red; }
+
+.fichatexto {
+  background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
