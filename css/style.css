@@ -1,26 +1,26 @@
-header {
+.header {
   box-shadow: 0px 5px 0px red;
   z-index: 2;
   background-color: black;
   width: 100%;
   position: fixed;
   top: 0; }
-  header nav {
+  .header nav {
     float: right;
     z-index: 2; }
-    header nav ul {
+    .header nav ul {
       margin: 20px;
       font-size: 25px;
       z-index: 2; }
-      header nav ul li {
+      .header nav ul li {
         display: inline-block;
         margin: 15px;
         z-index: 2; }
-        header nav ul li a {
+        .header nav ul li a {
           color: red;
           text-decoration: none;
           z-index: 2; }
-          header nav ul li a:hover {
+          .header nav ul li a:hover {
             color: brown; }
 
 html {
@@ -48,7 +48,9 @@ html {
 .coluna {
   background-color: white;
   padding-bottom: 40px;
-  margin: 20px; }
+  margin: 20px;
+  background-color: salmon;
+  border-radius: 20px; }
 
 .imagemficha {
   color: white;
