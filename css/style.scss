@@ -44,8 +44,13 @@ position: fixed;
 top: 20%;
 }
 .coluna1{
+  background-color: white;
+  padding-left: 100px;
+  padding-right: 300px;
   background-size: cover;
   border-radius: 5px;
+  box-shadow: 10px 0px 10px red;
+
 
 }
 .grid{
@@ -65,15 +70,19 @@ top: 20%;
  
   padding-bottom: 40px;
   margin: 20px;
-  background-color: salmon;
+  background-color: rgb(0, 0, 0);
   border-radius: 20px;
+  box-shadow: 0px 0px 0px 2px  red;
+  &:hover{
+    box-shadow: 0px 0px 10px 2px red;
+  }
 }
 
 .imagemficha{
   color: white;
   text-align: center;
   background-color: white;
-  box-shadow: 0px 5px 0px $primary;
+  box-shadow: 0px 3px 0px $primary;
   border-radius: 20px;
   
 }
@@ -91,7 +100,7 @@ top: 20%;
 .jogar{
   position: fixed;
   right: 15%;
-  top: 40%;
+  top: 20%;
 }
 button{
   background-color: greenyellow;
@@ -107,11 +116,11 @@ button{
   }
 }
 
-.porra{
+.gridcarrosel{
   grid-template-columns: 100%;
 z-index: -2;
 }
-.seila{
+.carrosel{
   background-color: white;
   text-align: center;
 }
