@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
     <link rel="stylesheet" href="css/style.css">
-
 </head>
 <body>
   <header class="header">
@@ -21,16 +20,11 @@
    </nav> 
   </header>
   <main>
-    <div class="porra">
-        <div class="seila">
-            <img src="imagens/capa parabellum.jpeg">
-        </div>
-    </div>
   <div class="destaques">
   <h1>Destaques</h1>
   </div>
   <div class="grid">
-    <a href="paginas/jogos.php">
+    <a href="survivortela.php">
     <div class="coluna">
             <div class="imagemficha">
         <img src="imagens/rqxtpu6s.png" alt="Survivor"></div><div class="fichatexto">Grátis</div>
@@ -64,17 +58,7 @@
             <img src="imagens/rqxtpu6s.png"></div><div class="fichatexto">Grátis</div>
     </div>
         </div>
-        <?php
-         $pagina = $_GET["pagina"] ?? "home";
-
-         $pagina = "paginas/{$pagina}.php";
-         
-         if (file_exists($pagina)) {
-             include $pagina;
-         } else {
-             include "paginas/erro.php";
-         }
-        ?>
+        
   </main>
 </body>
 </html>
